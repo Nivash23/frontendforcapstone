@@ -15,7 +15,7 @@ function userReg() {
       password: registerFormdata.password
     };
 
-    const response = await fetch('http://127.0.0.1:3004/api/users',
+    const response = await fetch('https://backendforcapstone-cokw.onrender.com/api/users/',
       {
         method: 'POST',
         headers: {
